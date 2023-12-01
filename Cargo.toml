@@ -1,0 +1,19 @@
+[package]
+name = "gooby"
+version = "0.1.0"
+edition = "2021"
+authors = ["Emirhan Pala <emrhnpla02@proton.me>"]
+
+[dependencies]
+poise = "0.5.5"
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+strum = { version = "0.25", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+tracing-subscriber = "0.3"
+tracing-error = "0.2"
+tracing = "0.1"
+dotenvy = "0.15"
+rust-i18n = "2"
+dyn-fmt = "0.4"
+envy = "0.4"
+anyhow = "1"

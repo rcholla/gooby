@@ -1,0 +1,15 @@
+[command]
+[command.kick]
+ok = "<@%{id}> başarıyla atıldı."
+err = "<@%{id}> atılırken bir hata oluştu."
+[command.ban]
+ok = "<@%{id}> başarıyla atıldı."
+err = "<@%{id}> atılırken bir hata oluştu."
+[command.clear]
+ok = "%{count} adet mesaj silindi."
+err = """%{from} mesajları silerken bir hata oluştu.
+
+Hata mesajı işte burada: `%{err}`
+"""
+empty_deletion_list = "Bu kanalda %{from} gönderilmiş hiç mesaj yok."
+sent_by = "<@%{id}> tarafından gönderilen"

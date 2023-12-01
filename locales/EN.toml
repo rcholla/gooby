@@ -1,0 +1,15 @@
+[command]
+[command.kick]
+ok = "Successfuly kicked <@%{id}>"
+err = "An error occured while kicking <@%{id}>"
+[command.ban]
+ok = "Successfuly banned <@%{id}>"
+err = "An error occured while banning <@%{id}>"
+[command.clear]
+ok = "Cleared %{count} messages"
+err = """An error occured while clearing messages%{from}
+
+Here's the error message: `%{err}`
+"""
+empty_deletion_list = "There are no messages in this channel%{from}"
+sent_by = " sent from <@%{id}>"
